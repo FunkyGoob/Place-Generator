@@ -25,9 +25,8 @@ export default {
 
 <style scoped>
 .flex{
-  min-height: 90vh;
   display: flex;
-  
+  width: 100%;
 }
 
 .left{
@@ -36,16 +35,16 @@ background-color: #5b1e2c;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+min-height: 90vh;
 }
 .right{
   width: 420px;
-  background-color: #373049;
+  background-color: #5b1e2c;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  justify-self:end;
 }
 .middle{
-  width: 70%;
+  width: 80%;
 }
 </style>

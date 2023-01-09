@@ -1,10 +1,10 @@
 <template>
     <div class="base-card">
         <div class="slot" id="name">
-        <h1>Weherchet</h1>
+        <h1>Dwarf</h1>
     </div>
     <div class="slot" id="img">
-        <img src="../assets/weherchet.png">
+        <img src="../assets/characters/dwarf.png">
     </div>
     </div>
 </template>
@@ -37,7 +37,7 @@ export default {
         margin-top: 10px;
     }
     img{
-        width: 60%;
+        width: 50%;
     }
    
 </style>

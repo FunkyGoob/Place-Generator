@@ -36,5 +36,8 @@ export default {
         display: flex;
         margin-top: 10px;
     }
+    img{
+        width: 60%;
+    }
    
 </style>
