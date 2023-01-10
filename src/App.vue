@@ -1,8 +1,11 @@
 <template>
+  <div id="app">
   <div class="flex">
  <left-side class="left"></left-side>
+ <div class="background"></div>
  <middle-side class="middle"></middle-side>
  <right-side class="right"></right-side>
+</div>
 </div>
 </template>
 
@@ -10,7 +13,7 @@
 
 import LeftSide from './components/left-side.vue';
 import RightSide from './components/right-side.vue'
-import MiddleSide from './components/middle-side.vue'
+import MiddleSide from './middle/middle-side.vue'
 
 
 export default {
@@ -24,9 +27,12 @@ export default {
 </script>
 
 <style scoped>
+
+
 .flex{
   display: flex;
   width: 100%;
+  background: #5b1e2c;
 }
 
 .left{
@@ -46,5 +52,9 @@ min-height: 90vh;
 }
 .middle{
   width: 80%;
+  border-style: solid;
+  text-align: center;
+  position: sticky;
+  top: 35vh;
 }
 </style>

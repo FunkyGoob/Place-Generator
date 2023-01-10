@@ -67,7 +67,7 @@ export default {
     }
 }
 </script>
-<style lang="css">
+<style>
 div{
   display: flex;
   justify-content: start;
